@@ -6,18 +6,19 @@
 [![Release][release-shield]][release-url]
 
 <br />
+<!--
 <p align="center">
-  <a href="https://github.com/gnmyt/Nexterm">
+  <a href="https://github.com/swissmakers/infra-manager">
     <picture>
         <source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/WhNYRgX.png">
-        <img alt="Nexterm Banner" src="https://i.imgur.com/TBMT7dt.png">
+        <img alt="Infram Banner" src="https://i.imgur.com/TBMT7dt.png">
     </picture>
   </a>
-</p>
+</p>-->
 
-## 🤔 What is Nexterm?
+## What is infra-manager?
 
-Nexterm is an open-source server management software that allows you to:
+Infram (short form) is an open-source server management software that allows you to:
 
 -   Connect remotely via SSH, VNC and RDP
 -   Manage files through SFTP
@@ -26,7 +27,15 @@ Nexterm is an open-source server management software that allows you to:
 -   Secure access with two-factor authentication and OIDC SSO
 -   Separate users and servers into Organizations
 
-## 📷 Screenshots
+## Upstream Attribution
+
+This project is a fork/rebrand maintained by Swissmakers GmbH.
+It is based on the original Nexterm project by Mathias Wagner.
+Our roadmap focuses on privacy and security optimization, including a hardened containerized version for enterprise use cases.
+
+Original copyright and third-party notices are preserved in `LICENSE` and `NOTICE`.
+
+## Screenshots
 
 <table>
   <tr>
@@ -41,11 +50,11 @@ Nexterm is an open-source server management software that allows you to:
   </tr>
 </table>
 
-## 🚀 Install
+## Install
 
-You can install Nexterm by clicking [here](https://docs.nexterm.dev/installation).
+You can install Infram by clicking [here](https://docs.nexterm.dev/installation).
 
-## 💻 Development
+## Development
 
 ### Prerequisites
 
@@ -58,8 +67,8 @@ You can install Nexterm by clicking [here](https://docs.nexterm.dev/installation
 #### Clone the repository
 
 ```sh
-git clone https://github.com/gnmyt/Nexterm.git
-cd Nexterm
+git clone https://github.com/swissmakers/infra-manager.git
+cd infra-manager
 ```
 
 #### Install dependencies
@@ -76,7 +85,7 @@ cd ..
 yarn dev
 ```
 
-## 🔧 Configuration
+## Configuration
 
 The server listens on port 6989 by default. You can modify this behavior using environment variables:
 
@@ -88,7 +97,7 @@ The server listens on port 6989 by default. You can modify this behavior using e
 -   `STRICT_TLS`: Enforce TLS certificate validation for outbound integrations like Proxmox and LDAP (default: true)
 -   `ENABLE_SOURCE_SYNC`: Enable automatic external source synchronization and default official source creation (default: false)
 
-## 🛡️ Security
+## Security
 
 -   Two-factor authentication
 -   Session management
@@ -96,7 +105,7 @@ The server listens on port 6989 by default. You can modify this behavior using e
 -   Docker container isolation
 -   Oauth 2.0 OpenID Connect SSO
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to:
 
@@ -106,30 +115,26 @@ Contributions are welcome! Please feel free to:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 🔗 Useful Links
+## Useful Links
 
 -   [Documentation](https://docs.nexterm.dev)
--   [Discord](https://dc.gnmyt.dev)
--   [Report a bug](https://github.com/gnmyt/Nexterm/issues)
--   [Request a feature](https://github.com/gnmyt/Nexterm/issues)
+-   [Report a bug](https://github.com/swissmakers/infra-manager/issues)
+-   [Request a feature](https://github.com/swissmakers/infra-manager/issues)
 
-## 💜 Powered by
 
-[![JetBrains logo](https://resources.jetbrains.com/storage/products/company/brand/logos/jetbrains.svg)](https://jb.gg/OpenSource)
-
-## 📄 License
+## License
 
 Distributed under the MIT license. See `LICENSE` for more information.
 
-[contributors-shield]: https://img.shields.io/github/contributors/gnmyt/Nexterm.svg?style=for-the-badge
-[contributors-url]: https://github.com/gnmyt/Nexterm/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/gnmyt/Nexterm.svg?style=for-the-badge
-[forks-url]: https://github.com/gnmyt/Nexterm/network/members
-[stars-shield]: https://img.shields.io/github/stars/gnmyt/Nexterm.svg?style=for-the-badge
-[stars-url]: https://github.com/gnmyt/Nexterm/stargazers
-[issues-shield]: https://img.shields.io/github/issues/gnmyt/Nexterm.svg?style=for-the-badge
-[issues-url]: https://github.com/gnmyt/Nexterm/issues
-[license-shield]: https://img.shields.io/github/license/gnmyt/Nexterm.svg?style=for-the-badge
-[license-url]: https://github.com/gnmyt/Nexterm/blob/master/LICENSE
-[release-shield]: https://img.shields.io/github/v/release/gnmyt/Nexterm.svg?style=for-the-badge
-[release-url]: https://github.com/gnmyt/Nexterm/releases/latest
+[contributors-shield]: https://img.shields.io/github/contributors/swissmakers/infra-manager.svg?style=for-the-badge
+[contributors-url]: https://github.com/swissmakers/infra-manager/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/swissmakers/infra-manager.svg?style=for-the-badge
+[forks-url]: https://github.com/swissmakers/infra-manager/network/members
+[stars-shield]: https://img.shields.io/github/stars/swissmakers/infra-manager.svg?style=for-the-badge
+[stars-url]: https://github.com/swissmakers/infra-manager/stargazers
+[issues-shield]: https://img.shields.io/github/issues/swissmakers/infra-manager.svg?style=for-the-badge
+[issues-url]: https://github.com/swissmakers/infra-manager/issues
+[license-shield]: https://img.shields.io/github/license/swissmakers/infra-manager.svg?style=for-the-badge
+[license-url]: https://github.com/swissmakers/infra-manager/blob/master/LICENSE
+[release-shield]: https://img.shields.io/github/v/release/swissmakers/infra-manager.svg?style=for-the-badge
+[release-url]: https://github.com/swissmakers/infra-manager/releases/latest
